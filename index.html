@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JayaMadhi Construction - Building Your Dream Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
     <style>
         :root {
             --primary: #FF1493;
@@ -38,7 +40,7 @@
             width: 100%;
             background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
-            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
             z-index: 1000;
             padding: 1rem 0;
         }
@@ -123,7 +125,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: 
+            background:
                 url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse"><path d="M 100 0 L 0 0 0 100" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="url(%23grid)" /></svg>');
             opacity: 0.3;
         }
@@ -143,7 +145,7 @@
             font-size: clamp(3rem, 10vw, 7rem);
             letter-spacing: 3px;
             margin-bottom: 1rem;
-            text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
             animation: fadeInUp 1s ease;
         }
 
@@ -162,7 +164,7 @@
             border-radius: 50px;
             display: inline-block;
             margin: 2rem 0;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
             animation: fadeInUp 1s ease 0.4s backwards;
         }
 
@@ -200,12 +202,12 @@
         .btn-secondary {
             background: white;
             color: var(--secondary);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
         }
 
         .btn-secondary:hover {
             transform: translateY(-3px);
-            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
         }
 
         /* Container */
@@ -274,7 +276,7 @@
             background: white;
             padding: 2rem;
             border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
             text-align: center;
             transition: all 0.3s ease;
             border: 3px solid transparent;
@@ -313,7 +315,7 @@
             background: white;
             padding: 2.5rem;
             border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
             transition: all 0.3s ease;
             position: relative;
             overflow: hidden;
@@ -326,7 +328,7 @@
             left: -100%;
             width: 100%;
             height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255,20,147,0.1), transparent);
+            background: linear-gradient(90deg, transparent, rgba(255, 20, 147, 0.1), transparent);
             transition: left 0.5s ease;
         }
 
@@ -390,7 +392,7 @@
             position: relative;
             border-radius: 20px;
             overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
             transition: all 0.3s ease;
             height: 300px;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -398,7 +400,7 @@
 
         .gallery-item:hover {
             transform: scale(1.05);
-            box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
         }
 
         .gallery-item .overlay {
@@ -406,7 +408,7 @@
             bottom: 0;
             left: 0;
             right: 0;
-            background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
             padding: 2rem;
             color: white;
             transform: translateY(100%);
@@ -434,7 +436,7 @@
             padding: 2rem;
             background: white;
             border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
             transition: all 0.3s ease;
         }
 
@@ -484,16 +486,16 @@
         }
 
         .contact-item {
-            background: rgba(255,255,255,0.1);
+            background: rgba(255, 255, 255, 0.1);
             padding: 2rem;
             border-radius: 15px;
             backdrop-filter: blur(10px);
-            border: 2px solid rgba(255,255,255,0.2);
+            border: 2px solid rgba(255, 255, 255, 0.2);
             transition: all 0.3s ease;
         }
 
         .contact-item:hover {
-            background: rgba(255,255,255,0.15);
+            background: rgba(255, 255, 255, 0.15);
             border-color: var(--primary);
             transform: translateX(10px);
         }
@@ -510,7 +512,8 @@
             font-size: 2rem;
         }
 
-        .contact-item p, .contact-item a {
+        .contact-item p,
+        .contact-item a {
             color: white;
             text-decoration: none;
             font-size: 1.1rem;
@@ -521,11 +524,11 @@
         }
 
         .contact-form {
-            background: rgba(255,255,255,0.1);
+            background: rgba(255, 255, 255, 0.1);
             padding: 3rem;
             border-radius: 20px;
             backdrop-filter: blur(10px);
-            border: 2px solid rgba(255,255,255,0.2);
+            border: 2px solid rgba(255, 255, 255, 0.2);
         }
 
         .form-group {
@@ -542,7 +545,7 @@
         .form-group textarea {
             width: 100%;
             padding: 1rem;
-            background: rgba(255,255,255,0.9);
+            background: rgba(255, 255, 255, 0.9);
             border: 2px solid transparent;
             border-radius: 10px;
             font-family: 'Poppins', sans-serif;
@@ -566,7 +569,7 @@
             margin-top: 4rem;
             border-radius: 20px;
             overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
         }
 
         .map-container iframe {
@@ -593,6 +596,7 @@
                 opacity: 0;
                 transform: translateY(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -622,7 +626,7 @@
                 padding: 2rem;
                 gap: 1rem;
                 transition: left 0.3s ease;
-                box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+                box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
             }
 
             nav ul.active {
@@ -653,6 +657,7 @@
         }
 
         @media (max-width: 480px) {
+
             .services-grid,
             .gallery-grid,
             .features-grid {
@@ -665,6 +670,7 @@
         }
     </style>
 </head>
+
 <body>
     <!-- Navigation -->
     <nav>
@@ -709,9 +715,16 @@
             <div class="about-content">
                 <div class="about-text fade-in">
                     <h3>Welcome to JayaMadhi Construction</h3>
-                    <p>With 10 years of excellence in the construction industry, we specialize in turning your dream home into reality. Led by experienced engineer Madhan, our team is committed to delivering quality construction services at competitive prices.</p>
-                    <p>Located in the heart of Chennai, we have successfully completed numerous residential projects, earning the trust and satisfaction of our valued clients. Our expertise lies in providing end-to-end construction solutions with a focus on quality, timely delivery, and cost-effectiveness.</p>
-                    <p>At just Rs.2199/- per sq.ft., we offer unbeatable value without compromising on quality. From foundation to finishing, we handle every aspect of your construction project with precision and care.</p>
+                    <p>With 10 years of excellence in the construction industry, we specialize in turning your dream
+                        home into reality. Led by experienced engineer Madhan, our team is committed to delivering
+                        quality construction services at competitive prices.</p>
+                    <p>Located in the heart of Chennai, we have successfully completed numerous residential projects,
+                        earning the trust and satisfaction of our valued clients. Our expertise lies in providing
+                        end-to-end construction solutions with a focus on quality, timely delivery, and
+                        cost-effectiveness.</p>
+                    <p>At just Rs.2199/- per sq.ft., we offer unbeatable value without compromising on quality. From
+                        foundation to finishing, we handle every aspect of your construction project with precision and
+                        care.</p>
                 </div>
                 <div class="about-stats fade-in">
                     <div class="stat-card">
@@ -930,7 +943,8 @@
                     </div>
                     <div class="contact-item">
                         <h3><span class="icon">💰</span> Pricing</h3>
-                        <p><strong style="font-size: 2rem; color: var(--primary);">Rs.2199/-</strong><br>Per Square Foot<br>Best Value in Chennai</p>
+                        <p><strong style="font-size: 2rem; color: var(--primary);">Rs.2199/-</strong><br>Per Square
+                            Foot<br>Best Value in Chennai</p>
                     </div>
                 </div>
                 <div class="contact-form fade-in">
@@ -949,39 +963,47 @@
                         </div>
                         <div class="form-group">
                             <label for="message">Project Details</label>
-                            <textarea id="message" name="message" placeholder="Tell us about your dream home..." required></textarea>
+                            <textarea id="message" name="message" placeholder="Tell us about your dream home..."
+                                required></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary" style="width: 100%;">Send Enquiry</button>
                     </form>
                 </div>
             </div>
-            <div id="review-section">
-  <h3>Leave a Review</h3>
-  <form id="reviewForm">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required><br><br>
+            <div class="contact-form fade-in">
+                <h3>Leave a Review</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required><br><br>
+                    </div>
+                    <div class="form-group">
+                        <label for="rating">Rating:</label>
+                        <select id="rating" name="rating" required>
+                            <option value="">Select</option>
+                            <option value="1">⭐</option>
+                            <option value="2">⭐⭐</option>
+                            <option value="3">⭐⭐⭐</option>
+                            <option value="4">⭐⭐⭐⭐</option>
+                            <option value="5">⭐⭐⭐⭐⭐</option>
+                        </select><br><br>
+                    </div>
+                    <div class="form-group">
+                        <label for="review">Review:</label><br>
+                        <textarea id="review" name="review" rows="4" cols="50" required></textarea><br><br>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Submit Review</button>
+                    </div>
+                </form>
 
-    <label for="rating">Rating:</label>
-    <select id="rating" name="rating" required>
-      <option value="">Select</option>
-      <option value="1">⭐</option>
-      <option value="2">⭐⭐</option>
-      <option value="3">⭐⭐⭐</option>
-      <option value="4">⭐⭐⭐⭐</option>
-      <option value="5">⭐⭐⭐⭐⭐</option>
-    </select><br><br>
 
-    <label for="review">Review:</label><br>
-    <textarea id="review" name="review" rows="4" cols="50" required></textarea><br><br>
-
-    <button type="submit">Submit Review</button>
-  </form>
-</div>
-
-            <div class="map-container fade-in">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.0842738655756!2d80.21859531482232!3d13.107844590779842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265d3e5c5f5e3%3A0x5f5f5f5f5f5f5f5f!2sKolathur%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+                <div class="map-container fade-in">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.0842738655756!2d80.21859531482232!3d13.107844590779842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265d3e5c5f5e3%3A0x5f5f5f5f5f5f5f5f!2sKolathur%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
+                        allowfullscreen="" loading="lazy"></iframe>
+                </div>
             </div>
-        </div>
     </section>
 
     <!-- Footer -->
@@ -1041,7 +1063,7 @@
         // Contact Form Handling
         document.getElementById('contactForm').addEventListener('submit', (e) => {
             e.preventDefault();
-            
+
             const name = document.getElementById('name').value;
             const phone = document.getElementById('phone').value;
             const email = document.getElementById('email').value;
@@ -1059,7 +1081,7 @@ ${message}`;
 
             // Open WhatsApp
             window.open(`https://wa.me/919789482631?text=${encodeURIComponent(whatsappMessage)}`, '_blank');
-            
+
             // Reset form
             e.target.reset();
             alert('Thank you! Your enquiry will be sent via WhatsApp.');
@@ -1069,7 +1091,7 @@ ${message}`;
         window.addEventListener('scroll', () => {
             const sections = document.querySelectorAll('section');
             const navLinks = document.querySelectorAll('nav a');
-            
+
             let current = '';
             sections.forEach(section => {
                 const sectionTop = section.offsetTop;
@@ -1087,14 +1109,14 @@ ${message}`;
             });
         });
         document.getElementById('reviewForm').addEventListener('submit', (e) => {
-    e.preventDefault();
+            e.preventDefault();
 
-    const name = document.getElementById('name').value;
-    const rating = document.getElementById('rating').value;
-    const review = document.getElementById('review').value;
+            const name = document.getElementById('name').value;
+            const rating = document.getElementById('rating').value;
+            const review = document.getElementById('review').value;
 
-    // WhatsApp message text
-    const whatsappMessage = `Hello JayaMadhi Construction! 
+            // WhatsApp message text
+            const whatsappMessage = `Hello JayaMadhi Construction! 
 
 New Review Submitted:
 
@@ -1102,14 +1124,15 @@ Name: ${name}
 Rating: ${rating}⭐
 Review: ${review}`;
 
-    // Open WhatsApp chat with pre-filled message
-    // Replace '91673647883' with your WhatsApp number (with country code)
-    window.open(`https://wa.me/91673647883?text=${encodeURIComponent(whatsappMessage)}`, '_blank');
+            // Open WhatsApp chat with pre-filled message
+            // Replace '91673647883' with your WhatsApp number (with country code)
+            window.open(`https://wa.me/91673647883?text=${encodeURIComponent(whatsappMessage)}`, '_blank');
 
-    // Reset form
-    e.target.reset();
-});
+            // Reset form
+            e.target.reset();
+        });
 
     </script>
 </body>
+
 </html>
